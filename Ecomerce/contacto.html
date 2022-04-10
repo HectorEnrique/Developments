@@ -31,47 +31,44 @@
 
     <main class="contenido-principal contenedor">
       <h2 class="text-center">Contacto</h2>
-      <form>
+      <form class="formulario">
         <fieldset>
-          <div></div>
           <legend>Tus Datos</legend>
           <div class="campo">
             <label for="nombre">Nombre: </label>
-            <input id="nombre" type="text" placeholder="Tú Nombre" required />
+            <input class="input" id="nombre" type="text" placeholder="Tú Nombre" required />
           </div>
           <div class="campo">
-            <label for="asunto">Asunto</label>
+            <label for="asunto">Asunto:</label>
             <input id="asunto" type="text" placeholder="Tú asunto" />
           </div>
           <div class="campo">
-            <label for="email">E-mail</label>
+            <label for="email">E-mail:</label>
             <input id="email" type="email" placeholder="Tú Email" />
           </div>
           <div class="campo">
-            <label for="tel">Teléfono</label>
+            <label for="tel">Teléfono:</label>
             <input id="tel" type="tel" placeholder="tú teléfono" />
           </div>
           <div class="campo">
-            <label for="date">Fecha</label>
-            <input id="date" type="date" placeholder="tú Fecha" />
-          </div>
-          <div class="campo">
-            <label for="date">mensaje</label>
+            <label for="date">mensaje:</label>
             <textarea name="" id="" cols="30" rows="10">Hola</textarea>
           </div>
         </fieldset>
 
         <fieldset>
           <legend>País</legend>
-          <label for="pais">País</label>
-          <select>
-            <option disabled>-- Seleccione --</option>
-            <option value="ES">España</option>
-            <option value="MX" selected>México</option>
-            <option value="PB">Puebla</option>
-            <option value="AR">Argentina</option>
-            <option value="CL">Chile</option>
-          </select>
+          <div class="campo">
+            <label for="pais">País</label>
+            <select>
+              <option disabled selected>-- Seleccione --</option>
+              <option value="ES">España</option>
+              <option value="MX">México</option>
+              <option value="PB">Puebla</option>
+              <option value="AR">Argentina</option>
+              <option value="CL">Chile</option>
+            </select>
+          </div>
         </fieldset>
 
         <fieldset>
@@ -96,7 +93,7 @@
             </datalist>
           </div>
         </fieldset>
-        <button type="submit">Enviar Formulario</button>
+        <button class="btn" type="submit">Enviar Formulario</button>
       </form>
     </main>
 
