@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+	font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	background-color:  #161616;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Globales */
+img{
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Header */
+.navegacion{
+  height: 8rem;
+  background-color: #ffffff;
+  /*
+  background-color: #161616;^*/
+}
+.navegacion__lista{
+  margin: 0;
+  padding: 0;
+  height: 8rem;
+  list-style: none;
+  display: flex;
+}
+.navegacion__item:nth-col li{
+}
+.navegacion__item:nth-child(1) img{
+  width: 5rem;
+}
