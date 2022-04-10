@@ -284,6 +284,9 @@ img {
   height: 30rem;
   object-fit: cover;
 }
+form{
+  background-color: blue;
+}
 /**
 /* Estilos para escribir codigo CSS
  * Modulos, BEM, SMACSS
