@@ -144,13 +144,15 @@ h2{
   display: grid; 
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
+  place-items:center;
 }
 .menu__content__item {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.menu__content__item img{
+.menu__content__item img,
+.menu__footer__item img{
   width: 100%;
   height: 15rem;
   object-fit: cover;
@@ -242,6 +244,16 @@ h2{
 .menu__content h3{
   grid-column: 1 / 6;
 }
-.menu__content__item:nth-child(1){
-  grid-column: 1 / 4;
+.menu__footer{
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
+.menu__footer__item{
+  width: 100%;
+  margin: 2rem;
+}
+
